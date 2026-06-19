@@ -24,8 +24,8 @@ from mcp.server.fastmcp import FastMCP
 # Configuration
 # ---------------------------------------------------------------------------
 
-SHOPIFY_STORE        = os.environ.get("SHOPIFY_STORE", "")           # e.g. "my-store"
-SHOPIFY_TOKEN        = os.environ.get("SHOPIFY_ACCESS_TOKEN", "")    # Static token (shpat_...)
+SHOPIFY_STORE        = os.environ.get("SHOPIFY_STORE", "avviisa")
+SHOPIFY_TOKEN        = os.environ.get("SHOPIFY_ACCESS_TOKEN", "6bec6afdb13c1fa1019cf54f5a6313ee954cd299")
 SHOPIFY_CLIENT_ID    = os.environ.get("SHOPIFY_CLIENT_ID", "")
 SHOPIFY_CLIENT_SECRET = os.environ.get("SHOPIFY_CLIENT_SECRET", "")
 API_VERSION          = os.environ.get("SHOPIFY_API_VERSION", "2024-10")
